@@ -344,4 +344,4 @@ if __name__=="__main__":
     login_space_track(SPACE_TRACK_USERNAME,SPACE_TRACK_PASSWORD)
     Thread(target=live_data_fetch_loop,daemon=True).start()
     Thread(target=socketio_loop,daemon=True).start()
-    socketio.run(app,host="0.0.0.0",port=8080,allow_unsafe_werkzeug=True) 
+    socketio.run(app,host="0.0.0.0",port=8080,allow_unsafe_werkzeug=True)
